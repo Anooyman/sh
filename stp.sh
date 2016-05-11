@@ -10,4 +10,8 @@ b=${1}".png"
 
 cp ${1}".svg" $b
 
+chmod 644 $b
+
 mv $b /home/anooy/graphviz/png
+
+
