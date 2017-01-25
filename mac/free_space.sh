@@ -3,4 +3,4 @@
 #Created Time:2016-11-09 19:31:55
 #########################################################################
 #!/bin/bash
-df -h | grep /dev/disk | awk '{print $4}'
+df -h | grep /dev/disk1 | awk '{print $4}'
